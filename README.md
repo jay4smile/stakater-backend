@@ -23,9 +23,9 @@ Above command will start local application server on port 8080.
 
 Kubernates configuration:
 
-`$ kubectl create deployment demo --image=springguides/demo --dry-run -o=yaml > deployment.yaml`
+`$ kubectl create deployment stakater-backend --image=jay4smile/stakater-backend --dry-run -o=yaml > deployment.yaml`
 
-`$ kubectl create service clusterip demo --tcp=8080:8080 --dry-run -o=yaml >> service.yaml`
+`$ kubectl create service clusterip stakater-backend --tcp=8080:8080 --dry-run -o=yaml >> service.yaml`
 
 Apply kubernates yamls
 
