@@ -36,7 +36,7 @@ spec:
             - containerPort: 8080
           env:
             - name: NAME
-              value: "Stakater"
+              value: "JAY"
       dnsPolicy: ClusterFirst
       restartPolicy: Always
       schedulerName: default-scheduler
