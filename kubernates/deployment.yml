@@ -26,7 +26,7 @@ spec:
         app: stakater-backend
     spec:
       containers:
-        - image: stakater-backend
+        - image: jay4smile/stakater-backend
           imagePullPolicy: Never
           name: stakater-backend
           resources: {}
